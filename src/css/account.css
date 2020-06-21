@@ -1,0 +1,82 @@
+
+.principal-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.dashboard{
+    height: 264px;
+    width: 683px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #835DD4;
+    color: white;
+
+    -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+
+   
+}
+
+.dashboard .fas{
+    font-size: 400%;
+    margin-bottom: 2%;
+}
+
+.adorno{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    border-radius: 0 5px 5px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B5AD;
+    justify-self: flex-end;
+    align-self: flex-start;
+    position: relative;
+    
+    bottom: 35px;
+    right:  20px;
+   
+
+}
+
+.s{
+   
+    position: absolute;
+    top: 30px;
+    left: 1px;
+    z-index: -1;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-top: 60px solid #00827C;
+}
+
+@media(max-width: 768px){
+    .principal-account{
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+        
+    }
+    .dashboard{
+        width: 90%;
+        margin-bottom: 5%;
+        
+        position: absolute;
+        bottom:  -50px;
+    }
+   
+}
+

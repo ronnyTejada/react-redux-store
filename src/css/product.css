@@ -1,0 +1,167 @@
+.principal-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-info-2{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+    grid-template-columns: auto auto;
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.img-p{
+    
+    width: 299px;
+    height: 299px;
+    border: none;
+}
+
+.product-i{
+    
+    flex-direction: column;
+    text-align: left;
+}
+
+.product-i h2{
+    position: relative;
+    bottom: 100px;
+}
+
+.product-i p{
+    position: relative;
+    bottom: 100px;
+    font-size: larger;
+    color: #999999;
+
+}
+
+.product-i input{
+    position: relative;
+    bottom: 70px;
+}
+
+.product-i input[type="number"]{
+    width: 195px;
+    height: 43px;
+    border: 1px solid #DEDEDF;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.product-i input[type="button"]{
+    background-color: #F2711C;
+    color: white;
+    width: 133px;
+    height: 45px;
+    border: none;
+    position: relative;
+    right:  4px;
+}
+
+.description{
+    width: 100%;
+    
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.description div{
+    width: 50%;
+}
+
+.description h3{
+    color: #212121;
+    margin-bottom: 2%;
+}
+
+/*----------------------RESPONSIVE-----------------------------*/
+
+@media(max-width: 767px){
+    .principal-detail{
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+        
+    }
+    .product-info-2{
+        display: grid;
+        grid-template-columns: auto ;
+        
+
+    }
+    
+    .img-p{
+        
+        width: auto;
+        height: 300px;
+        position: relative;
+        top: 5px;
+        border: none;
+    }
+    
+    .product-i{
+        
+       
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        top: 200px;
+        
+    }
+
+    .description{
+        padding-bottom: 5%;
+        position: relative;
+        top: 200px;
+    }
+
+    .description div{
+        width: 100%;
+      
+    }
+
+}
+
+@media(max-width: 520px){
+
+    .img-p{
+        position: relative;
+        top: 50px;
+    }
+
+    .product-i{
+        position: relative;
+        top: 250px;
+        
+    }
+
+    .description{
+      
+        position: relative;
+        top: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

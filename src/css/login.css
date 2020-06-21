@@ -1,0 +1,100 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 270px;
+    width: 699px;
+    border: 1px solid #DEDEDF;
+    margin-top: 3%;
+
+    -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+}
+
+.logup{
+    height: 350px;
+}
+
+
+strong{
+    margin-left: 10px;
+}
+
+.form input{
+    height: 36px;
+    width: 85%;
+    
+    margin-bottom: 20px;
+    border: 1px solid #DEDEDF;
+    border-radius: 5px;
+    padding-left: 35px;
+
+
+}
+
+.formi{
+    position: relative;
+    left:  40px;
+    color: #909090;
+    font-size: 15px;
+    
+}
+
+.i{
+    color:white !important;
+    
+
+}
+
+.form input[type="button"]{
+    height: 36px;
+    width:94px;
+    margin-left: px;
+    border-radius: 5px;
+    background-color: #F2711C;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+
+label{
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+
+@media(max-width: 785px){
+    
+    .form{
+        
+       
+        width: 100%;
+        
+        position: absolute;
+        bottom:  -50px;
+    }
+}
+
+@media(max-width: 441px){
+    
+    
+    label{
+        margin-left: -10px;
+        position: relative;
+        bottom: 10px;
+        
+    }
+    input{
+        width: 100%;
+    }
+
+    .form i{
+        display: none;
+    }
+    
+}
+
